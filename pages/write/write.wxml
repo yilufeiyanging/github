@@ -1,0 +1,16 @@
+
+<view class='detail'>
+      <text style='color:#666666;margin-left:-42rpx'>关键词：</text>
+      <input value='{{detail0}}' style='padding-left:0;color:black;font-size:36rpx;' class='detail_input' bindinput='bindRecever' data-tap='detail0' maxlength="2" placeholder='请输入两个字的关键词'></input></view>   
+
+<view class='deta'>
+      <text class='aaa' style='color:#666666;margin-left:-42rpx'>内   容：</text>
+      <input value='{{detail1}}' style='padding-left:0;color:black;' class='detail_input' bindinput='bindRecever' data-tap='detail1' maxlength="10"></input>
+      <input value='{{detail2}}' style='padding-left:0;color:black;' class='detail_input' bindinput='bindRecever' data-tap='detail2' maxlength="10"></input>
+      <input value='{{detail3}}' style='padding-left:0;color:black;' class='detail_input' bindinput='bindRecever' data-tap='detail3' maxlength="10"></input>
+       <image src='{{bigImg}}' class='big_img' bindtap='chooseImage'></image>
+    </view>   
+
+<view>
+<button class='btn' bindtap='callback'>确定</button>
+</view>

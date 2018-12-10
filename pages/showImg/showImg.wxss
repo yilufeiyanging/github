@@ -1,0 +1,75 @@
+page {
+  background: #f4f5f0;
+  height: auto;
+}
+
+#canvas_id {
+  width: 580rpx;
+  height: 950rpx;
+  margin-top: 30rpx;
+  background: f4f5f0;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: block; */
+}
+
+.zt {
+  font-size: 26rpx;
+  color:  #e1b878;
+  line-height: 50rpx;
+}
+
+.ztst {
+  width: 582rpx;
+  background-color: white;
+  border-top: 1px solid;
+  border-top-color: #ededed ;
+  display: flex;
+  justify-content: center;
+  margin-left: 85rpx;
+  height: 50rpx;
+} 
+.img{
+width:50rpx;
+height:50rpx;
+
+}
+.footer_but {
+  width: 580rpx;
+  height: 70rpx;
+  display: flex;
+  margin-top: 100rpx;
+  justify-content: space-around;
+  position: absolute;
+  left: 50%;
+  bottom: 50rpx;
+  margin-left: -290rpx;
+}
+
+button {
+  width: 150rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-radius: 25px;
+  border: 1px solid #ffffff;
+  position: relative;
+  font-size: 28rpx;
+  color: rgba(65, 65, 65);
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:45rpx;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+button::after {
+  border: none;
+}
+
+.bc {
+  background-color: rgb(238, 183, 4);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(238, 183, 4);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}

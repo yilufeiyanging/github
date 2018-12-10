@@ -1,0 +1,114 @@
+@import "../../font/iconfont.wxss";
+
+page {
+  background: #f4f5f0;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 580rpx;
+}
+
+.big_img {
+width:500rpx;
+height:460rpx;
+margin-right:auto;
+margin-left:-40rpx;
+display:block;
+margin-top:40rpx;
+position:relative;
+margin-left:-40rpx;
+
+}
+.detai2{
+  padding: 35rpx 80rpx 0rpx 80rpx;
+  font-size: 26rpx;
+  background: rgb(255, 255, 255);
+  margin-top: 20rpx;
+}
+input {
+  padding-left: 15rpx;
+}
+.deta{
+padding:15rpx 80rpx 0rpx 80rpx;
+font-size:26rpx;
+background:rgb(255, 255, 255);
+margin-top:-3rpx;
+height:830rpx;
+
+
+
+}
+.detail {
+  padding: 35rpx 80rpx 0rpx 80rpx;
+  font-size: 26rpx;
+  background: rgb(255, 255, 255);
+  height:100rpx;
+
+}
+
+.detail_input {
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  line-height: 40rpx;
+
+  border-bottom: 1px solid #dadada;
+  color: #666;
+}
+
+.btn {
+  border-radius:100%;
+background:rgb(253, 194, 1);
+width:180rpx;
+height:180rpx;
+line-height:190rpx;
+box-shadow:0px 2px 12px 0px rgb(156, 156, 156);
+margin-top:-100rpx;
+
+color:white;
+
+}
+
+/* .detail_reciver{
+  display: block;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 10rpx;
+}
+.detail_input{
+  display: block;
+  width: 100%;
+  height: 50rpx;
+  line-height: 40rpx;
+  margin-top: 15rpx;
+  border-bottom: 1px solid #dadada;
+  color: #666666;
+  
+} */
+
+/* .detail_reciver text{
+  height: 50rpx;
+  position: relative;
+   float: left;
+
+}
+.detail_reciver input{
+  width: 200rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-left: 20rpx;
+  position: relative;
+  float: left;
+  /* top: 10rpx;
+  border-bottom: 1px solid #dadada;
+}  */
+
+/* .position{
+  height: 50rpx;
+  color: #999;
+  float: left;
+  position: relative;
+  font-size: 38rpx;
+  margin-left: 20rpx;
+  margin-right: 10rpx;
+} */

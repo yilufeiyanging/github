@@ -1,0 +1,15 @@
+
+<canvas canvas-id='canvas_id' id='canvas_id'>
+ <image src='{{bigImg}}' class='big_img' bindtap='chooseImage'></image>
+</canvas>
+<view wx:if='{{zj==1}}'>
+<view class='ztst' bindtap='bjnr'>
+ <image class='img' src='../../images/bj.png'></image><text class='zt'>编辑内容</text>
+</view>
+<view class='footer_but'>
+    <button bindtap='write' bindgetuserinfo='callbackUserInfo' hidden='{{!isShare}}' open-type='getUserInfo'>写信</button>
+    <button disabled='{{btn}}' bindtap='changeTemplate'><text>换内容</text></button>
+    <button disabled='{{btn}}'  bindtap='changeMb'><text>换模板</text></button>
+    <button disabled='{{btn}}' class='bc' bindtap='preserveImg'>保存</button>
+</view>
+</view>

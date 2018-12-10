@@ -1,0 +1,93 @@
+/**index.wxss**/
+page{
+  background: #f4f5f0;
+  height: auto;
+}
+.index_icon{
+  width: 542rpx;
+  height: 565rpx;
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  margin-top: 150rpx;
+}
+.index_title0{
+  width: 523rpx;
+  height: 50rpx;
+  margin-top: 40rpx;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  animation: title_anima 2s 1;
+}
+.index_title1_content{
+  width: 543rpx;
+  height: 50rpx;
+  margin-top: 10rpx;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 70rpx;
+  text-align: left;
+}
+.index_title1{
+  width: 357rpx;
+  height: 50rpx;
+  position: relative;
+  margin-left: 95rpx;
+  margin-top: 20rpx;
+  animation: title_anima1 3s 1;
+}
+
+button{
+  width: 321rpx;
+  height: 84rpx;
+  line-height: 74rpx;
+
+  border-radius: 25px;
+ border:1px solid #dadada;
+  background: #e24d70;
+ font-size: 33rpx;
+  color: #ffffff;
+  vertical-align: middle;
+  bottom: 50rpx;
+  position: relative;
+  margin-top: 150rpx;
+}
+button::after{
+  border: none;
+   
+}
+button image{
+  width: 45rpx;
+  height: 45rpx;
+  position: relative;
+  left: -2px;
+  
+}
+button text{
+  margin-left: 10rpx;
+}
+
+@keyframes title_anima{
+  0%,50%{
+      opacity: 0;
+      top: 300rpx;
+  }
+  100%{
+    opacity: 1;
+    top: 0;
+  }
+}
+@keyframes title_anima1{
+  0%,50%{
+      opacity: 0;
+      top: 300rpx;
+  }
+  
+  100%{
+    opacity: 1;
+    top: 0;
+  }
+}

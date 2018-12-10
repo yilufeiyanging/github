@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/write/write",
+    "pages/showImg/showImg"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarTitleText": "时光信札",
+    "navigationBarTextStyle":"black"
+  }
+}

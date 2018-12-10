@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<image src='/images/index_icon.png' class='index_icon'></image>
+<image src='/images/index_title0.png' class='index_title0' mode='aspectFit'></image>
+<view class='index_title1_content'><image src='/images/index_title1.png' class='index_title1' mode='aspectFit'></image></view>
+<button open-type='getUserInfo'  bindtap='write' bindgetuserinfo='callbackUserInfo' hover-class="none"><text>开启</text></button>
