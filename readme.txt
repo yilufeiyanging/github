@@ -1,1 +1,2 @@
-'你好这是我第一个git仓库'
+'ni hao zhe shi wo di yi ge git zhang hu'
+'wo yao kai shi gai dong le'
